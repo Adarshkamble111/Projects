@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back_video{
+    position: absolute;
+    left: 0;
+    top: 160.3px;
+}
+
+video{
+    width: 100%;
+    height: 150%;
+}
+
+@media(min-aspect-ratio: 16/9){
+    .back_video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio: 16/9){
+    .back_video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.container h2{
+    color: white;
+    position: relative;
+}
